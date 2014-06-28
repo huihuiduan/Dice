@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *leftDice;
+@property (weak, nonatomic) IBOutlet UILabel *rightDice;
+- (IBAction)beginPlay:(id)sender;
 @end
